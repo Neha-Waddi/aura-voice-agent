@@ -187,10 +187,13 @@ This separation allows **horizontal scaling** per component.
 
 ```
 ├── backend/
+|   |── public/
+|       ├── index.html
+|       ├── style.css
+|       ├── app.js
 │   ├── src/
-│   │   ├── api/
+│   │   ├── config/
 │   │   ├── services/
-│   │   ├── knowledge/
 │   │   └── server.js
 │   ├── package.json
 │   └── .env
@@ -200,10 +203,7 @@ This separation allows **horizontal scaling** per component.
 │   ├── requirements.txt
 │   └── .env
 │
-└── dashboard/
-    ├── index.html
-    ├── style.css
-    ├── app.js
+
 ```
 
 ---
